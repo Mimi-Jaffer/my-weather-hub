@@ -1,0 +1,141 @@
+body {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  background: url(https://images.pexels.com/photos/2364701/pexels-photo-2364701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0.9;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 20px;
+  text-align: center;
+  color: #0061a8;
+  display: block;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 20px;
+  color: #0061a8;
+}
+
+.temperature{
+  font-family: "Playfair Display", serif;
+  font-weight: 20px;
+  color: #0061a8;
+}
+
+ul {
+  list-style: none;
+  font-family: "Playfair Display", serif;
+  font-weight: 20px;
+  text-align: center;
+  color: #fff;
+  display: block;
+ }
+.search-bar {
+  border-radius: 4px;
+  margin-top: 10px;
+  margin: 0 auto;
+  display: inline-block;
+  border-radius: 10px;
+  border-color: #072c17;
+  width: 20%;
+ 
+}
+
+.submit-button {
+  font-family: "Playfair Display", serif;
+  background-color: #072c17;
+  margin-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4px;
+  border: black;
+  font-size: 15px;
+  color: white;
+  transition: 200ms ease-in-out;
+  box-shadow: #ede8d8;
+}
+
+.submit-button:hover {
+  box-shadow: 2px 2px 6px #191919;
+}
+
+.btn-success{
+  background-color: #0061a8;
+ padding-bottom: 5px;
+  border-radius: 4px;
+  border: black;
+  font-size: 15px;
+  color: white;
+  transition: 200ms ease-in-out;
+  box-shadow: #ede8d8;
+}
+
+}
+
+.rain-today {
+  text-align: center;
+  color: #191919;;
+  font-size: 19px;
+  font-family: "Playfair Display", serif;
+  font-weight: 20px;
+}
+
+.temperature {
+  font-family: "Playfair Display", serif;
+  font-weight: 10px;
+  color: #191919;;
+}
+
+.rain {
+  color: #072c17;
+  font-size: 15px;
+  font-family: "Playfair Display", serif;
+  font-weight: 100px;
+}
+
+.hub {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 15px auto;
+  padding-bottom: 15px auto;
+}
+
+.col {
+  color: #0061a8;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #072c17;
+  border-width: 4px;
+  padding-top: 15px auto;
+  padding-bottom: 15px auto;
+  margin: 0 auto;
+  background-color: #ede8d8;
+}
+
+.card-body {
+  background-color: #072c17;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: black;
+  opacity: 0.9;
+}
+
+p {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  color: whitesmoke;
+  text-align: center;
+  background-color: #675702;
+  opacity: 0.8;
+}
