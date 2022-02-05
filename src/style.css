@@ -16,7 +16,7 @@ body {
 
 h1 {
   font-family: "Playfair Display", serif;
-  font-weight: 20px;
+  font-weight: bolder;
   text-align: center;
   color: #0061a8;
   display: block;
@@ -24,20 +24,21 @@ h1 {
 
 h2 {
   font-family: "Playfair Display", serif;
+  font-weight: bolder;
   font-weight: 20px;
   color: #0061a8;
 }
 
 .temperature {
   font-family: "Playfair Display", serif;
-  font-weight: 20px;
+  font-weight: bolder;
   color: #0061a8;
 }
 
 ul {
   list-style: none;
   font-family: "Playfair Display", serif;
-  font-weight: 20px;
+  font-weight: bolder;
   text-align: center;
   color: #fff;
   display: block;
@@ -115,6 +116,8 @@ ul {
 }
 
 .col {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
   color: #0061a8;
   font-size: 15px;
   text-align: center;
@@ -126,6 +129,7 @@ ul {
   padding-bottom: 15px auto;
   margin: 0 auto;
   background-color: #ede8d8;
+  opacity: 0.9;
 }
 
 .card-body {
