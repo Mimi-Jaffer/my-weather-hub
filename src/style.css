@@ -21,10 +21,9 @@ h2 {
   font-family: "Playfair Display", serif;
   font-weight: 20px;
   color: #0061a8;
-  text-align: center;
 }
 
-.temperature {
+.temperature{
   font-family: "Playfair Display", serif;
   font-weight: 20px;
   color: #0061a8;
@@ -37,7 +36,7 @@ ul {
   text-align: center;
   color: #fff;
   display: block;
-}
+ }
 .search-bar {
   border-radius: 4px;
   margin-top: 10px;
@@ -46,6 +45,7 @@ ul {
   border-radius: 10px;
   border-color: #072c17;
   width: 20%;
+ 
 }
 
 .submit-button {
@@ -68,10 +68,10 @@ ul {
   box-shadow: 2px 2px 6px #191919;
 }
 
-.btn-success {
-  font-family: "Playfair Display", serif;
+.btn-success{
+    font-family: "Playfair Display", serif;
   background-color: #0061a8;
-  padding-bottom: 5px;
+ padding-bottom: 5px;
   border-radius: 4px;
   border: black;
   font-size: 15px;
@@ -80,9 +80,11 @@ ul {
   box-shadow: #ede8d8;
 }
 
+}
+
 .rain-today {
   text-align: center;
-  color: #191919;
+  color: #191919;;
   font-size: 19px;
   font-family: "Playfair Display", serif;
   font-weight: 20px;
@@ -91,7 +93,7 @@ ul {
 .temperature {
   font-family: "Playfair Display", serif;
   font-weight: 10px;
-  color: #191919;
+  color: #191919;;
 }
 
 .rain {
