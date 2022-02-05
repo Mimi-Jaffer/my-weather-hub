@@ -1,11 +1,7 @@
-.WeatherApp {
-  margin: 30px 0 auto;
-  position: fixed;
-}
-
 body {
   font-family: "Playfair Display", serif;
   text-align: center;
+  position: center;
   background: url(https://images.pexels.com/photos/2364701/pexels-photo-2364701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
     no-repeat center center fixed;
   background-size: cover;
@@ -17,6 +13,7 @@ body {
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: bolder;
+  position: center;
   text-align: center;
   color: #0061a8;
   display: block;
@@ -24,14 +21,10 @@ h1 {
 
 h2 {
   font-family: "Playfair Display", serif;
+  position: center;
+  text-align: center;
   font-weight: bolder;
   font-weight: 20px;
-  color: #0061a8;
-}
-
-.temperature {
-  font-family: "Playfair Display", serif;
-  font-weight: bolder;
   color: #0061a8;
 }
 
@@ -39,7 +32,7 @@ ul {
   list-style: none;
   font-family: "Playfair Display", serif;
   font-weight: bolder;
-  text-align: center;
+  position: center;
   color: #fff;
   display: block;
 }
@@ -87,6 +80,22 @@ ul {
   transition: 200ms ease-in-out;
   box-shadow: #ede8d8;
 }
+
+.temperature {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  position: center;
+  text-align: center;
+  font-weight: bolder;
+  color: #191919;
+}
+
+.units {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #191919;
+}
 .rain-today {
   text-align: center;
   color: #191919;
@@ -95,12 +104,12 @@ ul {
   font-weight: 20px;
 }
 
-.temperature {
+.temp {
   font-family: "Playfair Display", serif;
-  font-weight: 10px;
+  position: relative;
+  font-weight: bolder;
   color: #191919;
 }
-
 .rain {
   color: #072c17;
   font-size: 15px;
@@ -108,25 +117,18 @@ ul {
   font-weight: 100px;
 }
 
-.hub {
-  text-align: center;
-  margin: 30px 0 auto;
-  padding-top: 15px auto;
-  padding-bottom: 15px auto;
-}
-
 .col {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   color: #0061a8;
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
   border-radius: 4px;
   border-style: solid;
   border-color: #072c17;
   border-width: 4px;
-  padding-top: 15px auto;
-  padding-bottom: 15px auto;
+  padding-top: 10px auto;
+  padding-bottom: 10px auto;
   margin: 0 auto;
   background-color: #ede8d8;
   opacity: 0.9;
@@ -134,7 +136,7 @@ ul {
 
 .card-body {
   background-color: #072c17;
-  border-radius: 4px;
+  border-radius: 5px;
   border-style: solid;
   border-color: black;
   opacity: 0.9;
@@ -148,4 +150,16 @@ p {
   text-align: center;
   background-color: #675702;
   opacity: 0.8;
+}
+
+.hub {
+  text-align: center;
+  margin: 30px 0 auto;
+  padding-top: 15px auto;
+  padding-bottom: 15px auto;
+}
+
+.hub-wrapper {
+  margin: 30px 0 auto;
+  position: center;
 }
