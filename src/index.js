@@ -24,20 +24,21 @@ function formatDate(date) {
 }
 
 function displayWeatherCondition(response) {
+  celsiusTemperature = response.data.main.temp;
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
   );
-  iconElement.setAttribute(
-    "src",
-    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
-  );
-
   descriptionElement.innerHTML = response.data.weather[0].description;
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
   );
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
 function searchCity(city) {
@@ -77,30 +78,34 @@ currentLocationButton.addEventListener("click", getCurrentLocation);
 let descriptionElement = document.querySelector("#description");
 
 let iconElement = document.querySelector("#icon");
-
 searchCity("Nottingham");
-
-celsiusTemperature = response.data.main.temp;
-
 function displayFahrenheitTemperature(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
+
   celsiusLink.classList.remove("active");
   fahrenheitLink.classList.add("active");
-  let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
-  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
+  let fahrenheiTemperature = (celsiusTemperature * 9) / 5 + 32;
+  temperatureElement.innerHTML = Math.round(fahrenheiTemperature);
 }
 
 function displayCelsiusTemperature(event) {
   event.preventDefault();
+  celsiusLink.classList.add("active");
+  fahrenheitLink.classList.remove("active");
   let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
 let celsiusTemperature = null;
 
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", handleSubmit);
+
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
+
+searchCity("Nottingham");
