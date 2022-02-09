@@ -3,10 +3,8 @@ body {
   text-align: center;
   position: center;
   background: url(https://images.pexels.com/photos/2364701/pexels-photo-2364701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
-    no-repeat center center fixed;
+    no-repeat center fixed;
   background-size: cover;
-  height: 100%;
-  overflow: hidden;
   opacity: 0.9;
 }
 
@@ -96,12 +94,6 @@ li:first-letter {
   color: #191919;
 }
 
-.units {
-  font-family: "Playfair Display", serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: #191919;
-}
 .rain-today {
   text-align: center;
   color: #191919;
@@ -168,4 +160,19 @@ p {
 .hub-wrapper {
   margin: 30px 0 auto;
   position: center;
+}
+
+.units {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #191919;
+}
+.weather-temperature .active {
+  color: #191919;
+  cursor: default;
+  text-decoration: none;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
 }

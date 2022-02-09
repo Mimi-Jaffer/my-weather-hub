@@ -39,10 +39,12 @@
     </form>
       <h1 id="city"></h1>
       <h2 id= "date"><strong></h2>
+        <div class="clearfix weather-temperature">
  <img src="" alt="sunny" id="icon"/>
-     
- <span class="temperature" id="temperature"></span></span><span class="units">°C | <a href="#"></a>°F </span>
-      <ul>
+ <span class="temperature" id="temperature"></span>
+ <span class="units"><a href="#" id="celsius-link" class="active">°C</a> | <a href="#" id="fahrenheit-link" class="inactive">°F</a> </span>
+      </div>
+ <ul>
         <li id="description"></li>
         <li>Humidity: <span id="humidity"></span>%</li>
         <li>Wind: <span id="wind"></span> km/h</li>
