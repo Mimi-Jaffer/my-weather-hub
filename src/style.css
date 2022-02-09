@@ -39,7 +39,7 @@ ul {
   display: block;
 }
 
-li {
+li:first-letter {
   text-transform: capitalize;
 }
 .search-bar {
