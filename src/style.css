@@ -93,34 +93,7 @@ li:first-letter {
   font-weight: bolder;
   color: #191919;
 }
-
-.rain-today {
-  text-align: center;
-  color: #191919;
-  font-size: 19px;
-  font-family: "Playfair Display", serif;
-  font-weight: 20px;
-}
-
-.temp {
-  font-family: "Playfair Display", serif;
-  position: relative;
-  font-weight: bolder;
-  color: #191919;
-}
-.rain {
-  color: #072c17;
-  font-size: 15px;
-  font-family: "Playfair Display", serif;
-  font-weight: 100px;
-}
-
-.col {
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
-  color: #0061a8;
-  font-size: 12px;
-  text-align: center;
+.col-2 {
   border-radius: 4px;
   border-style: solid;
   border-color: #072c17;
@@ -138,6 +111,33 @@ li:first-letter {
   border-style: solid;
   border-color: black;
   opacity: 0.9;
+}
+
+.weather-forecast {
+  text-align: center;
+}
+.weather-forecast-temparature-max {
+  font-family: "Playfair Display", serif;
+  position: relative;
+  font-weight: bolder;
+  font-size: 10px;
+  color: #191919;
+}
+
+.weather-forecast-temparature-min {
+  font-family: "Playfair Display", serif;
+  position: relative;
+  font-weight: bolder;
+  font-size: 10px;
+  color: #191919;
+  opacity: 0.9;
+}
+
+.weather-forecast-date {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #0061a8;
+  font-size: 12px;
 }
 
 p {
