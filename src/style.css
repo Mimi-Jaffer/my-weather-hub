@@ -1,11 +1,12 @@
 body {
   font-family: "Playfair Display", serif;
+  padding: 30px;
   text-align: center;
   position: center;
   background: url(https://images.pexels.com/photos/2364701/pexels-photo-2364701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
     no-repeat center fixed;
   background-size: cover;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 h1 {
@@ -14,7 +15,7 @@ h1 {
   font-weight: bolder;
   position: center;
   text-align: center;
-  color: #0061a8;
+  color: whitesmoke;
   display: block;
 }
 
@@ -25,7 +26,7 @@ h2 {
   text-align: center;
   font-weight: bolder;
   font-weight: 20px;
-  color: #0061a8;
+  color: whitesmoke;
 }
 
 ul {
@@ -35,9 +36,10 @@ ul {
   position: center;
   color: #fff;
   display: block;
+  text-align: center;
 }
 
-li:first-letter {
+li {
   text-transform: capitalize;
 }
 .search-bar {
@@ -51,7 +53,7 @@ li:first-letter {
 
 .submit-button {
   font-family: "Playfair Display", serif;
-  background-color: #072c17;
+  background-color: #4b86b1;
   margin: 0 auto;
   margin-top: 10px;
   padding-left: 5px;
@@ -71,7 +73,7 @@ li:first-letter {
 
 .location {
   font-family: "Playfair Display", serif;
-  background-color: #0061a8;
+  background-color: #4b86b1;
   margin: 5px 0 auto;
   margin-top: 10px;
   padding-left: 5px;
@@ -85,13 +87,17 @@ li:first-letter {
   box-shadow: #ede8d8;
 }
 
+.location-button:hover {
+  box-shadow: 2px 2px 6px #191919;
+}
+
 .temperature {
   font-family: "Playfair Display", serif;
   font-size: 30px;
   position: center;
   text-align: center;
   font-weight: bolder;
-  color: #191919;
+  color: whitesmoke;
 }
 .col-2 {
   border-radius: 4px;
@@ -101,7 +107,7 @@ li:first-letter {
   padding-top: 10px auto;
   padding-bottom: 10px auto;
   margin: 0 auto;
-  background-color: #ede8d8;
+  background-color: darkgray;
   opacity: 0.9;
 }
 
@@ -119,9 +125,9 @@ li:first-letter {
 .weather-forecast-temparature-max {
   font-family: "Playfair Display", serif;
   position: relative;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 12px;
-  color: #191919;
+  color: black;
 }
 
 .weather-forecast-temparature-min {
@@ -136,7 +142,7 @@ li:first-letter {
 .weather-forecast-date {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  color: #0061a8;
+  color: black;
   font-size: 15px;
 }
 
@@ -146,8 +152,10 @@ p {
   font-family: "Playfair Display", serif;
   color: whitesmoke;
   text-align: center;
-  background-color: #675702;
-  opacity: 0.8;
+  border-radius: 3px;
+  border-color: whitesmoke;
+  background-color: darkslategray;
+  opacity: 0.9;
 }
 
 .hub {
@@ -166,10 +174,10 @@ p {
   font-family: "Playfair Display", serif;
   font-size: 20px;
   font-weight: bold;
-  color: #191919;
+  color: whitesmoke;
 }
 .weather-temperature .active {
-  color: #191919;
+  color: whitesmoke;
   cursor: default;
   text-decoration: none;
 }
